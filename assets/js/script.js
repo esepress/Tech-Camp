@@ -34,7 +34,7 @@ function scroll() {
 // One page Smooth Scrolling
 ///////////////////////////////
 
-$('a[href*=#]:not([href=#])').click(function() {
+$('#top-nav > li > a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -46,7 +46,6 @@ $('a[href*=#]:not([href=#])').click(function() {
         }
     }
 });
-
 
 
 /*--------------------------------------   change word  -------------------------------------*/

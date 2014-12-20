@@ -732,7 +732,10 @@ article p
     color: black;
     margin-left: 18px;
 }
-
+.tab-content 
+{
+    background-color: #fff;
+}
 /* ===================================== 5. Speakers ================================== */
 .do-up .caption 
 {
